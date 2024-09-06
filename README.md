@@ -1,0 +1,7 @@
+- Projects with Langchain
+  - Create a chain that uses HuggingFace models: https://huggingface.co/blog/langchain
+  - Create a chatbot that interacts with PDF documents: https://python.langchain.com/v0.2/docs/how_to/document_loader_pdf/
+  - Create a chain that uses LLM Agents: https://python.langchain.com/v0.2/docs/tutorials/agents/
+  - Create a chain that interacts with a DB in SQL: https://python.langchain.com/v0.2/docs/tutorials/sql_qa/
+- Others
+  - Gorilla: https://github.com/ShishirPatil/gorilla?tab=readme-ov-file
