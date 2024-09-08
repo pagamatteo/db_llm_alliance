@@ -25,13 +25,13 @@ Paganelli (Postdoc at the University of Modena and Reggio Emilia) within the ICT
 
 # Exam (3 CFD)
 - **Option A**: Select 3 papers for a given topic and create a report or presentation summarizing them and highlighting their similarities/differences
-  -  The list of papers is available at exam/Papers.csv
+  -  The list of papers is available at https://github.com/pagamatteo/db_llm_alliance/blob/main/exam/Papers.csv
 - **Option B**: Experiment with the code of a SOTA approach by …
   - Applying the model on a new dataset
   - Testing a different transformer model and comparing the performance with the original ones
   - Summarizing the code in a self-contained Google Colab notebook operating on sample data
   - <ins>Select only one of the previous points</ins>
-  - The list of papers with code is available at exam/Papers & codes.csv
+  - The list of papers with code is available at https://github.com/pagamatteo/db_llm_alliance/blob/main/exam/Paper_codes.csv
 - **Option C**: Develop your own project related to a data preparation task and including some of the libraries discussed in the course
   - Create a chatbot with LangChain that interacts with PDF documents: https://python.langchain.com/v0.2/docs/how_to/document_loader_pdf/
   - Create a chain with LangChain that uses LLM Agents: https://python.langchain.com/v0.2/docs/tutorials/agents/
