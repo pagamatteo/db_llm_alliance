@@ -24,15 +24,16 @@ Paganelli (Postdoc at the University of Modena and Reggio Emilia) within the ICT
 - 5.3 Next research directions
 
 # Exam (3 CFD)
-- **Option A**: Write a summary of 2/3 papers selected from the provided paper list
-- **Option B**: Create a benchmarking code including 2/3 source codes between the ones provided
-- **Option C**: Create a small project including some of the libraries discussed in the course
-
-
-- Projects with Langchain
-  - Create a chain that uses HuggingFace models: https://huggingface.co/blog/langchain
-  - Create a chatbot that interacts with PDF documents: https://python.langchain.com/v0.2/docs/how_to/document_loader_pdf/
-  - Create a chain that uses LLM Agents: https://python.langchain.com/v0.2/docs/tutorials/agents/
-  - Create a chain that interacts with a DB in SQL: https://python.langchain.com/v0.2/docs/tutorials/sql_qa/
-- Others
-  - Gorilla: https://github.com/ShishirPatil/gorilla?tab=readme-ov-file
+- **Option A**: Select 3 papers for a given topic and create a report or presentation summarizing them and highlighting their similarities/differences
+  -  The list of papers is available at exam/Papers.csv
+- **Option B**: Experiment with the code of a SOTA approach by …
+  - Applying the model on a new dataset
+  - Testing a different transformer model and comparing the performance with the original ones
+  - Summarizing the code in a self-contained Google Colab notebook operating on sample data
+  - <ins>Select only one of the previous points</ins>
+  - The list of papers with code is available at exam/Papers & codes.csv
+- **Option C**: Develop your own project related to a data preparation task and including some of the libraries discussed in the course
+  - Create a chatbot with LangChain that interacts with PDF documents: https://python.langchain.com/v0.2/docs/how_to/document_loader_pdf/
+  - Create a chain with LangChain that uses LLM Agents: https://python.langchain.com/v0.2/docs/tutorials/agents/
+  - Create a chain with LangChain that interacts with a DB in SQL: https://python.langchain.com/v0.2/docs/tutorials/sql_qa/
+  - ... (free to suggestions)

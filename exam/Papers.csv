@@ -1,0 +1,41 @@
+Year,Venue,Title,Url,Topic
+2023,ACL,Natural Language to Code Generation in Interactive Data Science Notebooks,https://aclanthology.org/2023.acl-long.9.pdf,Automating Data Pipeline
+2023,Arxiv,SEED: Domain-Specific Data Curation With Large Language Models,https://arxiv.org/pdf/2310.00749,Automating Data Pipeline
+2024,SIGMOD,Data-Juicer: A One-Stop Data Processing System for Large Language Models,https://dl.acm.org/doi/pdf/10.1145/3626246.3653385,Automating Data Pipeline
+2024,Arxiv,LLMClean: Context-Aware Tabular Data Cleaning via LLM-Generated OFDs,https://arxiv.org/pdf/2404.18681,Data Cleaning
+2023,BigData,LLMs with User-defined Prompts as Generic Data Operators for Reliable Data Processing,https://arxiv.org/pdf/2312.16351,Data Cleaning
+2024,Arxiv,CleanAgent: Automating Data Standardization with LLM-based Agents,https://arxiv.org/pdf/2403.08291,Data Cleaning
+2021,VLDB,Ember: No code context enrichment via similarity based keyless joins,https://www.vldb.org/pvldb/vol15/p699-suri.pdf,Data discovery
+2024,VLDB,Chorus: Foundation Models for Unified Data Discovery and Exploration,https://www.vldb.org/pvldb/vol17/p2104-kayali.pdf,Data discovery
+2023,VLDB,DeepJoin: Joinable Table Discovery with Pre-trained Language Models,https://www.vldb.org/pvldb/vol16/p2458-dong.pdf,Data discovery
+2021,VLDB,RPT: Relational Pre-trained Transformer Is Almost All You Need towards Democratizing Data Preparation,https://www.vldb.org/pvldb/vol14/p1254-tang.pdf,Data integration
+2021,VLDB,Data Augmentation for ML-driven Data Preparation and Integration,https://dl.acm.org/doi/pdf/10.14778/3476311.3476403,Data integration
+2023,Arxiv,Jellyfish: A Large Language Model for Data Preprocessing,https://arxiv.org/pdf/2312.01678,Data integration
+2023,Arxiv,Large Language Models as Data Preprocessors,https://arxiv.org/pdf/2308.16361,Data integration
+2023,VLDB,Can Large Language Models Predict Data Correlations from Column Names?,https://www.vldb.org/pvldb/vol16/p4310-trummer.pdf,Data Profiling
+2024,HILDA,Cocoon: Semantic Table Profiling Using Large Language Models,https://dl.acm.org/doi/pdf/10.1145/3665939.3665957,Data Profiling
+2022,SIGMOD,DB-BERT: making database tuning tools “read” the manual,https://link.springer.com/article/10.1007/s00778-023-00831-y,DB optimization
+2024,VLDB,D-Bot: Database Diagnosis System using Large Language Models,https://arxiv.org/pdf/2312.01454.pdf,DB optimization
+2024,VLDB,GPTuner: A Manual-Reading Database Tuning System via GPT-Guided Bayesian Optimization,https://dl.acm.org/doi/pdf/10.14778/3659437.3659449,DB optimization
+2024,CIDR,Panda: Performance debugging for databases using LLM agents,https://www.amazon.science/publications/panda-performance-debugging-for-databases-using-llm-agents,DB optimization
+2024,EDBT,Querying Large Language Models with SQL,https://openproceedings.org/2024/conf/edbt/paper-61.pdf,DBMS + LLM
+2024,VLDB,AutoTQA: Towards Autonomous Tabular Qestion Answering through Multi-Agent Large Language Models,https://www.vldb.org/pvldb/vol17/p3920-zhu.pdf,DBMS + LLM
+2024,Arxiv,Relational Database Augmented Large Language Model,https://arxiv.org/pdf/2407.15071,DBMS + LLM
+2023,Arxiv,How does prompt engineering affect ChatGPT performance on unsupervised entity resolution?,https://arxiv.org/pdf/2310.06174,Entity Matching
+2024,Arxiv,"“Match, Compare, or Select? An Investigation of Large Language Models for Entity Matching”",https://arxiv.org/pdf/2405.16884,Entity Matching
+2024,ICDE,Cost-Effective In-Context Learning for Entity Resolution: A Design Space Exploration,https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10597751,Entity Matching
+2024,EDBT,EMBA: Entity Matching using Multi-Task Learning of BERT with Attention-over-Attention,https://openproceedings.org/2024/conf/edbt/paper-76.pdf,Entity Matching
+2023,CIDR,Symphony: Towards Natural Language Query Answering over Multi-Modal data lakes,https://www.cidrdb.org/cidr2023/papers/p51-chen.pdf,Multimodal Data Lakes
+2024,ACL,Multimodal Table Understanding,https://aclanthology.org/2024.acl-long.493.pdf,Multimodal Table reasoning
+2023,ACL,TableVLM: Multi-modal Pre-training for Table Structure Recognition,https://aclanthology.org/2023.acl-long.137.pdf,Multimodal Table reasoning
+2021,VLDB,From Natural Language Processing to Neural Databases,https://dl.acm.org/doi/pdf/10.14778/3447689.3447706,Neural DB
+2023,SIGIR,Multimodal Neural Databases,https://dl.acm.org/doi/10.1145/3539618.3591930,Neural DB
+2024,VLDB,The Dawn of Natural Language to SQL: Are We Fully Ready?,https://www.vldb.org/pvldb/vol17/p3318-luo.pdf,NLQI / Text-to-SQL
+2024,Arxiv,Text2SQL is Not Enough: Unifying AI and Databases with TAG,https://arxiv.org/pdf/2408.14717,NLQI / Text-to-SQL
+2023,SIGMOD,Few-shot Text-to-SQL Translation using Structure and Content Prompt Learning,https://dl.acm.org/doi/pdf/10.1145/3589292,NLQI / Text-to-SQL
+2023,ICDE,Schema Matching using Pre-Trained Language Models,https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10184612,Schema matching
+2024,Arxiv,Schema Matching with Large Language Models: an Experimental Study,https://arxiv.org/pdf/2407.11852,Schema matching
+2023,ICML,TABDDPM: MODELLING TABULAR DATA WITH DIFFUSION MODELS,https://proceedings.mlr.press/v202/kotelnikov23a.html,Synthetic table generation
+2024,Arxiv,Chain-of-Table: Evolving Tables in the Reasoning Chain for Table Understanding,https://arxiv.org/pdf/2401.04398.pdf,Table prompting
+2023,VLDB,Observatory: Characterizing Embeddings of Relational Tables,https://www.vldb.org/pvldb/vol17/p849-cong.pdf,Table Representation Learning
+2024,VLDBJ,Survey of Vector Database Management Systems,https://link.springer.com/article/10.1007/s00778-024-00864-x,Vector DB

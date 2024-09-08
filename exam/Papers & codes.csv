@@ -1,0 +1,13 @@
+Year,Venue,Title,Url,Topic,Code
+2024,EDBT,Querying Large Language Models with SQL,https://openproceedings.org/2024/conf/edbt/paper-61.pdf,DBMS + LLM,https://gitlab.eurecom.fr/saeedm1/galois
+2023,SIGIR,Multimodal Neural Databases,https://dl.acm.org/doi/10.1145/3539618.3591930,Neural DB,https://github.com/GiovanniTRA/MultimodalNeuralDatabases
+2023,ICML,TABDDPM: MODELLING TABULAR DATA WITH DIFFUSION MODELS,https://proceedings.mlr.press/v202/kotelnikov23a.html,Synthetic table generation,https://github.com/yandex-research/tab-ddpm
+2024,Arxiv,Chain-of-Table: Evolving Tables in the Reasoning Chain for Table Understanding,https://arxiv.org/pdf/2401.04398.pdf,Table representation & understanding,https://github.com/google-research/chain-of-table
+2024,Arxiv,Text2SQL is Not Enough: Unifying AI and Databases with TAG,https://arxiv.org/pdf/2408.14717,NLQI / Text-to-SQL,https://github.com/TAG-Research/TAG-Bench
+2024,ACL,Multimodal Table Understanding,https://aclanthology.org/2024.acl-long.493.pdf,Table representation & understanding,https://github.com/SpursGoZmy/Table-LLaVA
+2023,VLDB,Observatory: Characterizing Embeddings of Relational Tables,https://www.vldb.org/pvldb/vol17/p849-cong.pdf,Table representation & understanding,https://github.com/superctj/observatory
+2023,VLDB,Explaining Dataset Changes for Semantic Data Versioning with Explain-Da-V,https://www.vldb.org/pvldb/vol16/p1587-shraga.pdf,Data versioning,https://github.com/northeastern-datalab/Explain-Da-V
+2023,VLDB,Language Models Enable Simple Systems for Generating Structured Views of Heterogeneous Data Lakes,https://www.vldb.org/pvldb/vol17/p92-arora.pdf,Data curation,https://github.com/HazyResearch/evaporate
+2024,ICDE,Gen-T: Table Reclamation in Data Lakes,https://www.computer.org/csdl/proceedings-article/icde/2024/171500d532/1YOtNUiITUk,Data integration,https://github.com/northeastern-datalab/gen-t
+2024,EDBT,Similarity Measures For Incomplete Database Instances,https://openproceedings.org/2024/conf/edbt/paper-118.pdf,Data integration,https://github.com/dbunibas/Instance-Comparison
+2023,ICLR,LANGUAGE MODELS ARE REALISTIC TABULAR DATA GENERATORS,https://openreview.net/pdf?id=cEygmQNOeI,Synthetic table generation,https://github.com/kathrinse/be_great
