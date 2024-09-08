@@ -47,7 +47,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--model', type=str, default="gpt-3.5-turbo-0125",
                         help='The name of the model')
-    parser.add_argument('--data', type=str, default=os.path.join('data', 'data.csv'),
+    parser.add_argument('--data', type=str, default=os.path.join('data', 'people.csv'),
                         help='The path to the data to clean')
     parser.add_argument('--errors', type=str, default=os.path.join('data', 'errors.csv'),
                         help='The path to the errors')
