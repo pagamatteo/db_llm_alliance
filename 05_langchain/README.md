@@ -12,4 +12,6 @@ Two scenarios were created using LangChain operating on this data.
 - The first (clean_table_v1) consists in asking ChatGPT to identify errors in the dataset while ignoring the Wikipedia summaries.
 - The second (clean_table_v2) consists in asking ChatGPT to identify errors in the dataset by exploiting Wikipedia summaries via a RAG paradigm.
 
-To use ChatGPT you need to create an account on OpenAI, enable an API keys and store it in a .env file inside this repository.
+## Quickstart
+
+To use ChatGPT you need to create an account on OpenAI, enable an API key and store it in a .env file inside this repository.
