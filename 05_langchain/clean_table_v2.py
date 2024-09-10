@@ -3,7 +3,6 @@ import time
 import pandas as pd
 import dotenv
 import argparse
-from pprint import pprint
 
 from langchain_openai import ChatOpenAI
 from langchain_community.document_loaders import CSVLoader
@@ -112,7 +111,7 @@ def main():
                         help='Size of each document chunk')
     parser.add_argument('--chunk_overlap', type=int, default=200,
                         help='Overlap between document chunks')
-    parser.add_argument('--topk', type=int, default=1,
+    parser.add_argument('--topk', type=int, default=3,
                         help='The number of documents to retrieve for each question')
     parser.add_argument('--return_docs', action='store_true',
                         help='Flag that enables the insertion of retrieved documents in the answer')
@@ -121,13 +120,14 @@ def main():
     args = parser.parse_args()
 
     table = pd.read_csv(args.data)
+    table.drop(['Id'], axis=1, inplace=True)
     table = table.sample(n=len(table), replace=False)
     true_errors = pd.read_csv(args.errors)['Error']
 
     wiki_loader = CSVLoader(file_path=args.wiki_summaries, encoding='utf-8')
     wiki_docs = wiki_loader.load()
 
-    out_table, out_errors, out_contexts = rag_cleaning_chain(
+    rag_cleaning_chain(
         table=table, wiki_docs=wiki_docs, true_errors=true_errors,
         model=args.model, chunk_size=args.chunk_size, chunk_overlap=args.chunk_overlap, topk=args.topk,
         emb_path=args.emb_path, return_docs=args.return_docs

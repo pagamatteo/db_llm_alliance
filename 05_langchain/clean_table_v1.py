@@ -54,8 +54,9 @@ def main():
     args = parser.parse_args()
 
     table = pd.read_csv(args.data)
+    table.drop(['Id'], axis=1, inplace=True)
     true_errors = pd.read_csv(args.errors)['Error']
-    out_table, out_errors, out_contexts = simple_cleaning_chain(
+    simple_cleaning_chain(
         table=table, true_errors=true_errors, model=args.model
     )
 
