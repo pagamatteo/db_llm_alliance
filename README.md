@@ -24,16 +24,16 @@ Paganelli (Postdoc at the University of Modena and Reggio Emilia) within the ICT
 - 5.3 Next research directions
 
 # Exam (3 CFD)
+There is no deadline, you can take the exam whenever you want.
 - **Option A**: Select 3 papers for a given topic and create a report or presentation summarizing them and highlighting their similarities/differences
   -  The list of papers is available at https://github.com/pagamatteo/db_llm_alliance/blob/main/exam/Papers.csv
-- **Option B**: Experiment with the code of a SOTA approach by …
-  - Applying the model on a new dataset
+- **Option B**: Experiment with the code of a SOTA approach from https://github.com/pagamatteo/db_llm_alliance/blob/main/exam/Paper_codes.csv by …
+  - Applying the model on a new dataset (use the related works of the paper to find datasets that were not used in the paper's experimentation)
   - Testing a different transformer model and comparing the performance with the original ones
-  - Summarizing the code in a self-contained Google Colab notebook operating on sample data
-  - <ins>Select only one of the previous points</ins>
-  - The list of papers with code is available at https://github.com/pagamatteo/db_llm_alliance/blob/main/exam/Paper_codes.csv
-- **Option C**: Develop your own project related to a data preparation task and including some of the libraries discussed in the course
+  - Wrapping the repository code in a Google colab notebook (this activity is more about refactoring and simplifying the code making it accessible in an interactive environment to show the main features of the original approach)
+  - **<ins>Select only one of the previous points</ins>**
+- **Option C**: Develop your own project related to a data preparation task (e.g.,  entity matching, schema matching, data imputation, error detection, simple data transformations, question answering, claim verification, table understanding, and other table-related tasks) and including some of the libraries discussed in the course (e.g., LangChain, OpenPrompt, Transformers). Here are some examples:
   - Create a chatbot with LangChain that interacts with PDF documents: https://python.langchain.com/v0.2/docs/how_to/document_loader_pdf/
   - Create a chain with LangChain that uses LLM Agents: https://python.langchain.com/v0.2/docs/tutorials/agents/
   - Create a chain with LangChain that interacts with a DB in SQL: https://python.langchain.com/v0.2/docs/tutorials/sql_qa/
-  - ... (free to suggestions)
+  - ... (open to suggestions)
