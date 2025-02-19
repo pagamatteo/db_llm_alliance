@@ -39,3 +39,7 @@ Year,Venue,Title,Url,Topic
 2024,Arxiv,Chain-of-Table: Evolving Tables in the Reasoning Chain for Table Understanding,https://arxiv.org/pdf/2401.04398.pdf,Table prompting
 2023,VLDB,Observatory: Characterizing Embeddings of Relational Tables,https://www.vldb.org/pvldb/vol17/p849-cong.pdf,Table Representation Learning
 2024,VLDBJ,Survey of Vector Database Management Systems,https://link.springer.com/article/10.1007/s00778-024-00864-x,Vector DB
+2024,WWW,BoostER: Leveraging Large Language Models for Enhancing Entity Resolution,https://dl.acm.org/doi/pdf/10.1145/3589335.3651245,Entity Matching
+2024,Arxiv,AnyMatch – Efficient Zero-Shot Entity Matching with a Small Language Model,https://arxiv.org/pdf/2409.04073,Entity Matching
+2024,DBML,Directions Towards Efficient and Automated Data Wrangling with Large Language Models,https://www.wis.ewi.tudelft.nl/assets/files/dbml2024/DBML24_paper_1.pdf,Entity Matching
+2024,Discov. Artif. Intell.,Cost-efficient prompt engineering for unsupervised entity resolution in the product matching domain,https://link.springer.com/article/10.1007/s44163-024-00159-8,Entity Matching
